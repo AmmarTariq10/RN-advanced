@@ -1,6 +1,6 @@
 import { createStore, combineReducers, compose } from 'redux';
 
-import placesReducer from './Reducers/places';
+import placesReducer from './reducers/places';
 
 const rootReducer = combineReducers({
     places: placesReducer
