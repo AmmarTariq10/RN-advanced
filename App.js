@@ -5,8 +5,7 @@ import AuthScreen from './src/screens/Auth/Auth';
 import FindPlace from './src/screens/Auth/Auth';
 import SharePlaceScreen from './src/screens/SharePlace/SharePlace';
 import FindPlaceScreen from './src/screens/FindPlace/FindPlace';
-import configStore from './src/Store/configureStore';
-import configureStore from './src/store/configureStore';
+import configureStore from './src/Store/configureStore';
 
 const store = configureStore();
 
