@@ -10,8 +10,7 @@ import com.facebook.soloader.SoLoader;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.reactnativenavigation.NavigationApplication;
 import com.airbnb.android.react.maps.MapsPackage;
-
- 
+import com.imagepicker.ImagePickerPackage; 
 
 import java.util.Arrays;
 import java.util.List;
@@ -62,9 +61,9 @@ public class MainApplication extends NavigationApplication  {
       return Arrays.<ReactPackage>asList(
           // eg. new VectorIconsPackage()
              new VectorIconsPackage(),
-             new MapsPackage()
-
-
+             new MapsPackage(),
+             new ImagePickerPackage() // <-- add this line
+            
       );
   }
 
